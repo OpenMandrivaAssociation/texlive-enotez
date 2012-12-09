@@ -47,3 +47,11 @@ provides means for easy customization of the list of notes.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.3a-1
++ Revision: 813485
+- Import texlive-enotez
+- Import texlive-enotez
+
