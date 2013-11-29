@@ -1,11 +1,11 @@
-# revision 27179
+# revision 32120
 # category Package
 # catalog-ctan /macros/latex/contrib/enotez
-# catalog-date 2012-07-24 16:08:54 +0200
+# catalog-date 2013-11-09 19:56:15 +0100
 # catalog-license lppl1.3
-# catalog-version 0.3a
+# catalog-version 0.7b
 Name:		texlive-enotez
-Version:	0.3a
+Version:	0.7b
 Release:	1
 Summary:	Support for end-notes
 Group:		Publishing
@@ -47,11 +47,3 @@ provides means for easy customization of the list of notes.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.3a-1
-+ Revision: 813485
-- Import texlive-enotez
-- Import texlive-enotez
-
