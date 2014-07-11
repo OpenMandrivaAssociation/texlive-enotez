@@ -6,7 +6,7 @@
 # catalog-version 0.7c
 Name:		texlive-enotez
 Version:	0.7c
-Release:	2
+Release:	3
 Summary:	Support for end-notes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/enotez
