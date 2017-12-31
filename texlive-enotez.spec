@@ -1,9 +1,3 @@
-# revision 32873
-# category Package
-# catalog-ctan /macros/latex/contrib/enotez
-# catalog-date 2014-02-04 11:06:08 +0100
-# catalog-license lppl1.3
-# catalog-version 0.7c
 Name:		texlive-enotez
 Version:	0.9a
 Release:	1
@@ -34,11 +28,8 @@ package requires the expl3 bundle and packages from the LaTeX 3
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/enotez/enotez.sty
-%doc %{_texmfdistdir}/doc/latex/enotez/README
-%doc %{_texmfdistdir}/doc/latex/enotez/enotez_en.pdf
-%doc %{_texmfdistdir}/doc/latex/enotez/enotez_en.tex
-%doc %{_texmfdistdir}/doc/latex/enotez/enotez_split_example.tex
+%{_texmfdistdir}/tex/latex/enotez
+%doc %{_texmfdistdir}/doc/latex/enotez
 
 #-----------------------------------------------------------------------
 %prep
