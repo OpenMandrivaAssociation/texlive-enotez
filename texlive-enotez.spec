@@ -1,6 +1,6 @@
 Name:		texlive-enotez
 Version:	0.9a
-Release:	2
+Release:	3
 Summary:	Support for end-notes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/enotez
