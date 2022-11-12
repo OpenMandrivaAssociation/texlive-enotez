@@ -1,12 +1,12 @@
 Name:		texlive-enotez
-Version:	0.9a
-Release:	3
+Version:	61490
+Release:	1
 Summary:	Support for end-notes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/enotez
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/enotez.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/enotez.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/enotez.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/enotez.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -19,12 +19,12 @@ package requires the expl3 bundle and packages from the LaTeX 3
 'package set'.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -33,7 +33,7 @@ package requires the expl3 bundle and packages from the LaTeX 3
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
