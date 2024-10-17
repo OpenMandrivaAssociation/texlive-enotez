@@ -3,7 +3,7 @@ Version:	61490
 Release:	2
 Summary:	Support for end-notes
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/enotez
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/enotez
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/enotez.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/enotez.doc.r%{version}.tar.xz
